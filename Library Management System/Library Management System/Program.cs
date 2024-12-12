@@ -1,4 +1,5 @@
 ﻿using Library_Management_System;
+using Library_Management_System.Data;
 using Library_Management_System.Models;
 using System.Net;
 
@@ -6,7 +7,7 @@ var _context = new LibraryContext();
 
 var member = new Member
 {
-    Name = "saif",
+    Name = "mohammed",
     Email = "saif@gmail.com",
     MembershipDate = DateTime.Now
 };

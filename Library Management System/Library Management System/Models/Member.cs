@@ -12,6 +12,6 @@ namespace Library_Management_System.Models
         public string ?Name { get; set; }
         public string? Email { get; set; }
         public DateTime? MembershipDate { get; set; }
-        public ICollection<Loan> Members { get; set; }
+        public ICollection<Loan> ?Members { get; set; }
     }
 }
